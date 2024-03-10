@@ -1,0 +1,14 @@
+{
+  "name": "aircraft",
+  "version": "0.1.0",
+  "files": [
+    "aircraft_bg.wasm",
+    "aircraft.js",
+    "aircraft.d.ts"
+  ],
+  "module": "aircraft.js",
+  "types": "aircraft.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
